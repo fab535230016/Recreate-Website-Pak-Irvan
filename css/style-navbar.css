@@ -1,0 +1,40 @@
+
+.navbar {
+    background: linear-gradient(90deg, #000000 0%, #1E2A78 100%); 
+    padding: 1rem 0; 
+    height: 70px; 
+    position: fixed;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+    font-weight: 500;
+    padding: 0.5rem 1rem; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.btn-subscribe {
+    background-color: #FFD700; 
+    color: #000;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-weight: 500; 
+    transition: all 0.3s ease; 
+}
+
+.btn-subscribe:hover {
+    background-color: #DAA520;
+    color: white;
+    box-shadow: 0 0 15px rgba(218, 165, 32, 0.5); 
+}

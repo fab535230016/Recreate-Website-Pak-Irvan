@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(180deg, #44269e 0%, #44269e 100%);
+    min-height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 70px;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+
+.btn-subscribe {
+    font-size: 1.1rem;
+}
+
+.gym-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.gym-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.gym-text p {
+    font-size: 1.5rem;
+}
+
+.plans-section {
+    padding: 2rem 0;
+}
+
+.plan-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.plan-basic {
+    background: linear-gradient(160deg, #3EA6FF 0%, #2783E6 100%);
+}
+
+.plan-full {
+    background: linear-gradient(160deg, #8865F0 0%, #775CE8 100%);
+}
+
+.plan-card h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.features-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.feature-icon {
+    margin-right: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.plan-card {
+    animation: fadeIn 0.5s ease-out;
+    height: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

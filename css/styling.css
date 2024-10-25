@@ -1,0 +1,66 @@
+body {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+p {
+  font-size: 1.9rem;
+}
+
+.about_us, .welcome {
+  padding-top: 150px;
+}
+
+.carousel-image {
+  height: 800px; 
+  object-fit: cover;
+  width: 100%;
+}
+
+.subscribe-box {
+  box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.15); 
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-label {
+  margin-top: 50px;
+}
+
+.team-member {
+  box-shadow: 0 4px 16px 4px rgba(0, 0, 0, 0.15); 
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 140px; 
+  height: 140px; 
+  object-fit: cover;
+}
+
+.latest-wellness {
+  padding: 40px 0;
+}
+
+.latest-wellness h4 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.latest-wellness p {
+  font-size: 1.2rem;
+}

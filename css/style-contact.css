@@ -1,0 +1,18 @@
+.contact_us {
+  padding-top: 150px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #0d6efd;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0a58ca;
+}
+
+.social-icons i {
+  font-size: 2rem;
+}
